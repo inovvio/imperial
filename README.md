@@ -1,4 +1,4 @@
-# imperial emertius
+# Bayesian Optimisation for Credit Scoring using XGBoost
 Final Project - Imperial Emeritus Professional Certificate in AI &amp; ML
 
 **Project Title**
