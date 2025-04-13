@@ -1,6 +1,5 @@
 ## Data Sheet for the German Credit Dataset
 
----
 
 ### 1. Motivation
 
@@ -13,7 +12,7 @@ The dataset originates from the UCI Machine Learning Repository, contributed by 
 **What tasks is it designed to support?**
 Binary classification: predicting whether a loan applicant is a good or bad credit risk.
 
----
+
 
 ### 2. Composition
 
@@ -38,7 +37,7 @@ Yes — about 70% good credit, 30% bad credit.
 **Sensitive features present?**
 Potentially — such as personal status and employment type.
 
----
+
 
 ### 3. Collection Process
 
@@ -57,7 +56,6 @@ Not explicitly mentioned.
 **Has it been preprocessed?**
 Some variables were converted from categorical to numerical formats.
 
----
 
 ### 4. Preprocessing & Labeling
 
@@ -72,7 +70,6 @@ Inferred from loan repayment performance
 **Was manual labeling required?**
 No
 
----
 
 ### 5. Uses
 
@@ -88,7 +85,7 @@ No
 **Appropriate for production?**
 With caution and ethical review.
 
----
+
 
 ### 6. Distribution
 
@@ -101,7 +98,7 @@ Open for academic and research purposes.
 **How is it maintained?**
 Static dataset; not updated.
 
----
+
 
 ### 7. Contact
 
