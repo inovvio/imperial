@@ -41,13 +41,13 @@ This project applies Bayesian Optimisation to tune the hyperparameters of an XGB
 
 ### Folder Structure
 ```
-├── data/                # German credit dataset
-├── notebooks/           # Jupyter notebooks with model training and tuning
-├── models/              # Saved model artefacts (optional)
-├── results/             # Performance plots and output logs
-├── README.md            # Project overview (this file)
-├── data_sheet.md        # Dataset documentation
-└── model_card.md        # Model documentation
+
+├── credit_risk_model_UCI.ipynb           # Jupyter notebook with model training and tuning
+├── models/                               # Saved model artefacts (optional)
+├── README.md                             # Project overview (this file)
+├── data_sheet.md                         # Dataset documentation
+└── model_card.md                         # Model documentation
+├── data/                                 # German credit dataset
 ```
 
 
