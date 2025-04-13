@@ -5,20 +5,19 @@
 
 ---
 
-### 📄 Project Overview
+###  Project Overview
 This project applies Bayesian Optimisation to tune the hyperparameters of an XGBoost model designed to predict credit default risk. The goal is to improve classification performance while maintaining fairness and generalisability across different subgroups.
 
----
 
-### 📊 Dataset Used
+###  Dataset Used
 - **Name**: German Credit Dataset
 - **Source**: UCI Machine Learning Repository  
 - **Description**: Contains 1,000 examples of loan applicants with 20 features including credit history, purpose of loan, employment status, and more.
 - **Target**: Binary classification — whether the applicant is a good or bad credit risk.
 
----
 
-### 🤖 Model and Optimisation
+
+###  Model and Optimisation
 - **Model**: XGBoost Classifier
 - **Optimisation Method**: Bayesian Optimisation (via `skopt`)
 - **Hyperparameters Tuned**:
@@ -30,18 +29,17 @@ This project applies Bayesian Optimisation to tune the hyperparameters of an XGB
   - `gamma`
 - **Objective Function**: AUC-ROC (Area Under ROC Curve)
 
----
 
-### 🧪 Evaluation Metrics
+
+###  Evaluation Metrics
 - Accuracy
 - Precision
 - Recall
 - F1 Score
 - AUC-ROC
 
----
 
-### 📁 Folder Structure
+### Folder Structure
 ```
 ├── data/                # German credit dataset
 ├── notebooks/           # Jupyter notebooks with model training and tuning
@@ -52,24 +50,24 @@ This project applies Bayesian Optimisation to tune the hyperparameters of an XGB
 └── model_card.md        # Model documentation
 ```
 
----
 
-### 🧠 Key Learnings
+
+###  Key Learnings
 - Bayesian optimisation outperforms grid/random search in both efficiency and final model performance.
 - Proper hyperparameter tuning is crucial when working with imbalanced data.
 - Evaluation on subgroup performance (e.g., employment type, age) helps uncover model bias.
 
----
 
-### 🚀 How to Run
+
+###  How to Run
 1. Clone the repository
 2. Load the German Credit dataset
 3. Run `credit_model.ipynb` in `notebooks/`
 4. Output includes best parameters, evaluation report, and ROC curve
 
----
 
-### 📌 Future Improvements
+
+###  Future Improvements
 - Add fairness-aware constraints to the optimisation loop
 - Test on LendingClub data for scalability
 - Deploy model via REST API for real-time credit scoring
