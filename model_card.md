@@ -1,6 +1,5 @@
 ## Model Card for XGBoost Credit Risk Classifier
 
----
 
 ### Model Details
 
@@ -9,7 +8,6 @@
 **Trained On:** German Credit Dataset (UCI)  
 **Task:** Binary classification (default risk prediction)
 
----
 
 ### Intended Use
 
@@ -26,7 +24,7 @@
 - Real-time decisioning without fairness validation
 - Predicting loan amounts or interest rates
 
----
+
 
 ### Performance Summary
 
@@ -40,7 +38,7 @@
 - Stratified 5-fold cross-validation
 - Bayesian hyperparameter tuning with Expected Improvement acquisition
 
----
+
 
 ### Training Data
 
@@ -53,7 +51,7 @@
 - Feature scaling (StandardScaler)
 - Class balancing using `scale_pos_weight`
 
----
+
 
 ### Ethical Considerations
 
@@ -69,21 +67,20 @@
 - Retrain with modern, diverse datasets
 - Apply fairness-aware learning methods
 
----
+
 
 ### Limitations
 - Small dataset size may reduce generalisation
 - Class imbalance impacts recall for minority class
 - Model not audited for real-world financial compliance
 
----
+
 
 ### Caveats and Recommendations
 - Use in sandbox/testing only — not yet production-ready
 - Interpretability tools (e.g., SHAP) recommended for deployment
 - Requires external fairness audit before live deployment
 
----
 
 ### Contact
-For more details, contact the project owner or refer to the README file in the project repository.
+For more details, contact the project owner, Prakash Anthony, or refer to the README file in the project repository.
